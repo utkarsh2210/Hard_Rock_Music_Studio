@@ -124,10 +124,17 @@ input:focus {
 	}
   }
   
-  .bell img {
+.bell img {
 	  width: 30px;
 	  height: 30px;
 	  animation: shake 0.5s;
 		animation-iteration-count: infinite;
   }
   
+.profile-pic img {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+
+/*--------------------------------------------------------------*/  
