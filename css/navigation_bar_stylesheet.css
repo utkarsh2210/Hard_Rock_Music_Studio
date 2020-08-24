@@ -1,0 +1,63 @@
+/*Margins removed from text elements to make it easier for use*/
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0px;
+}
+
+body {
+	background-image: url(../Media/Background/back5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	font-family:  Arial, sans-serif;
+	color: white;
+}
+
+/*Removed underlines from links as it is not required*/
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*****************Navigation Bar Section*****************/
+
+.nav-bar {
+	height: auto;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.logo img {
+	height: 50px;
+	width: 55px;
+}
+
+.website-name{
+	margin-left: 5px;
+}
+
+.website-name h1{
+	font-family: 'Almendra SC'; 
+	color: wheat; 
+	text-shadow: 0 0 5px wheat,
+    0 0 10px wheat,
+    0 0 20px wheat,
+    0 0 40px wheat,
+    0 0 80px wheat,
+    0 0 90px wheat;
+}
+
+.website-name h4 {
+	color: rgb(168, 13, 13);
+}
+
+.title > div {
+	display: inline-block;
+	margin-top: 5px;
+}
+
