@@ -61,3 +61,12 @@ a {
 	margin-top: 5px;
 }
 
+.fav{
+	margin-right: 28vw;	
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.fav:hover{
+	transform: scale(1.3);
+}
