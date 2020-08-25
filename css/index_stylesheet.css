@@ -127,3 +127,57 @@ main {
 	font-size: 0.9rem;
 }
 
+.options {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	margin-left: auto;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+
+.release-dropdown-part {
+	position: absolute;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 0px;
+	height: 0px;
+	top: 20px;
+	right: 0px;
+	z-index: 2;
+	box-shadow: 0px 0px 2px 1px black;
+	transition: all ease-in-out 0.2s;
+	overflow: hidden;
+}
+
+.dropdown-item i{
+	margin-right: 10px;
+}
+
+.dropdown-item p {
+	text-align: left;
+}
+
+.fa-ellipsis-h {
+	cursor: pointer;
+}
+
+/*THIS PART IS IMPORTANT FOR THE LIST TO BE DISPLAYED UPON CLICKING THE 3 DOTS IMAGE*/
+/*Input for the checkbox*/
+input[type="checkbox"] {
+	display: none;
+}
+
+/*Once the 3 dots are clicked, the button will be checked & list appears*/
+input[type="checkbox"]:checked ~ .release-dropdown-part {
+	height: auto;
+	opacity: 1;
+	padding: 3px 1px;
+	width: max-content;
+}
+
+/*--------------------------------------------------------------------------*/
+
