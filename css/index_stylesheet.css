@@ -119,3 +119,11 @@ main {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
+.song-name {
+	margin: auto 10%;
+}
+
+.song-name p{
+	font-size: 0.9rem;
+}
+
