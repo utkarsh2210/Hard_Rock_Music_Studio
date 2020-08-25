@@ -1,0 +1,69 @@
+main {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 0.5% 3.5%;
+	transition: all ease-in-out 1s;
+	box-sizing: border-box;
+}
+
+.center-section {
+	width: 70%;
+	height: 86vh;
+	overflow: scroll;
+}
+
+/*To hide center section's scroll bar*/
+.center-section::-webkit-scrollbar {
+	display: none;
+}
+
+/*Right side section*/
+.side-section {
+	width: 28%;
+	height: 86vh;
+}
+
+.carousel-box {
+	position: relative;
+	left: 9vw;
+	margin-top: 5%;
+}
+
+.carousel {
+	position: absolute;
+	width: 65%;
+	height: auto;
+	left: 2%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.carousel img {
+	height: 14vw;
+	width: 22.5vw;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+
+.carousel img:nth-child(1) {
+	position: relative;
+	left: 40vw;
+	z-index: 2;
+}
+
+.carousel img:nth-child(2) {
+	z-index: 3;
+}
+
+.carousel img:nth-child(3) {
+	position: relative;
+	right: 40vw;
+	z-index: 1;
+}
+
+/* Animation effect for carousel */
+.carousel img:hover {
+	z-index: 4;
+	transform: scaleX(1.2) scaleY(1.2);
+}
