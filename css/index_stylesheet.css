@@ -67,3 +67,13 @@ main {
 	z-index: 4;
 	transform: scaleX(1.2) scaleY(1.2);
 }
+
+/*-----------------------------------------------------------------------------*/
+
+/****************** Latest Release Section **************/
+
+.latest-release {
+	position: relative;
+	top: 20vw;
+	width: 100%;
+}
