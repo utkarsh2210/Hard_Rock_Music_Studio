@@ -311,6 +311,13 @@ input[type="checkbox"]:checked ~ .release-dropdown-part {
 	border-radius: 50%;
 }
 
+.moods-box {
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 .moods-box-content {
 	height: 6vw;
 	width: 6vw;
@@ -339,11 +346,73 @@ input[type="checkbox"]:checked ~ .release-dropdown-part {
 	cursor: pointer;
 }
 
-.moods-box {
-	width: 75%;
+/*---------------------------------------------------------------------------------------*/
+
+/****************** Favourite Moods **********************/
+/* These are the favourite moods, Namely - Party, Road Trip and Electronic */
+.fav-moods {
+	height: auto;
+	width: 100%;
+	position: relative;
+	top: 30vw;
+	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 }
+
+.text-div {
+	width: 19.5vw;
+	height: 13vw;
+	min-width: 115px;
+	min-height: 78px;
+	margin: 5px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.pic-div {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	transition: all ease-in-out 0.3s;
+}
+
+.fav-moods .text-div:nth-child(1) .pic-div {
+	background-image: url("../Media/Fav_Moods/party.jpg");
+}
+
+.fav-moods .text-div:nth-child(2) .pic-div {
+	background-image: url("../Media/Fav_Moods/electronic.jpg");
+}
+
+.fav-moods .text-div:nth-child(3) .pic-div {
+	background-image: url("../Media/Fav_Moods/road.jpeg");
+}
+
+.text-div:hover .pic-div {
+	transform: scale(1.2);
+}
+.text-div .pic-div span {
+	transform: scale(1);
+	transition: all ease-in-out 0.3s;
+}
+.text-div:hover .pic-div span {
+	transform: scale(0.6);
+}
+
+.pic-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-div .pic-div span {
+	color: white;
+	font-size: 1.8vw;
+}
+
+/*-----------------------------------------------------------------------*/
 
 
