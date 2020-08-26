@@ -180,4 +180,11 @@ input[type="checkbox"]:checked ~ .release-dropdown-part {
 }
 
 /*--------------------------------------------------------------------------*/
-
+/*************** Popular Artists Section ******************/
+.popular-artists {
+	position: relative;
+	width: 100%;
+	height: auto;
+	top: 25vw;
+	box-sizing: border-box;
+}
