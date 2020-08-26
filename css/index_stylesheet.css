@@ -188,3 +188,35 @@ input[type="checkbox"]:checked ~ .release-dropdown-part {
 	top: 25vw;
 	box-sizing: border-box;
 }
+
+.popular-artist-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.popular-artists a div img {
+	width: 10vw;
+	min-width: 60px;
+	min-height: 60px;
+	height: 10vw;
+	border-radius: 50%;
+}
+
+.popular-artists > div {
+	margin: 5px;
+	text-align: center;
+}
+
+.popular-artist-box > a > div {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.popular-artists div p {
+	text-align: center;
+}
+
