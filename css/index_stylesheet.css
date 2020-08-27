@@ -509,3 +509,36 @@ label[for="Play-List-Button"]:checked ~ input {
 }
 
 
+.queue-options {
+	position: fixed;
+	right: 4%;
+	top: 14%;
+	background-color: black;
+	width: 10%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	box-sizing: border-box;
+	z-index: 2;
+	opacity: 0;
+	transition: all ease-in-out 0.2s;
+	overflow: hidden;
+}
+
+#queue-box:target {
+	opacity: 1;
+	transform: scale(1);
+}
+.queue-options {
+	background-color: black;
+}
+.queue-options p {
+	text-align: center;
+}
+
+
+
