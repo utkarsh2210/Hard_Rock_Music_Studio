@@ -496,4 +496,16 @@ label[for="Play-List-Button"]:checked ~ input {
 	display: none;
 }
 
+.heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 12%;
+}
+
+.heading h4 a {
+	text-decoration: none;
+	color: lightblue;
+}
+
 
