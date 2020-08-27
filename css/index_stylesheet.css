@@ -414,5 +414,61 @@ input[type="checkbox"]:checked ~ .release-dropdown-part {
 }
 
 /*-----------------------------------------------------------------------*/
+/* Font-size for headings */
+.center-section h1{
+	font-size: 1.3em;
+}
+
+.side-section h1{
+	font-size: 1.3em;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/******************* Language Section *************************/
+/* Similar for both English and Hindi */
+
+.lang {
+	height: auto;
+	width: 100%;
+	position: relative;
+	top: 31vw;
+	margin: 3vw 0px;
+	box-sizing: border-box;
+}
+
+.lang-box {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 0px 2px;
+}
+
+.lang-box div img {
+	border-radius: 10px;
+	width: 9vw;
+	height: 9vw;
+	min-width: 60px;
+	min-height: 60px;
+	transition: box-shadow ease-in-out 0.2s;
+}
+
+.lang-box div img:hover {
+	box-shadow: 0px 0px 10px 1px white;
+}
+
+.lang-box div {
+	margin: 2vw 0px;
+	width: 10vw;
+	min-width: 80px;
+}
+
+.lang-box div p:nth-child(2n + 1) {
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
 
 
