@@ -470,5 +470,30 @@ input[type="checkbox"]:checked ~ .release-dropdown-part {
 
 /* ------------------------------------------------------------------------------------- */
 
+/***************** Side Section With Other Songs ***********************/
+/* Play-List Button */
+label[for="Play-List-Button"] {
+	display: none;
+	position: absolute;
+	text-align: center;
+	right: 0%;
+	top: 30%;
+	padding: 4px;
+	z-index: 4;
+	width: 100px;
+	font-size: 20px;
+	box-shadow: 0px 0px 2px 1px white;
+	background-color: black;
+}
+
+label i{
+	margin-left: 4px;
+}
+
+/*IMPORTANT PART, PLAY-LIST BUTTON BECOMES VISIBLE ONLY WHEN SCREEN SIZE IS DECREASED*/
+/* UPON CLICKING THE PLAYLIST BUTTON WE CAN TOGGLE THE PLAYLIST SECTION */
+label[for="Play-List-Button"]:checked ~ input {
+	display: none;
+}
 
 
