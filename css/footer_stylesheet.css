@@ -104,3 +104,11 @@ footer {
 .slider:hover {
 	opacity: 1;
 }
+
+.active-right-side {
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: rgb(204, 209, 217);
+}
