@@ -113,3 +113,69 @@ main {
 .btns > button:nth-child(2):hover {
 	background-color: rgba(25, 25, 28, 0.75);
 }
+
+
+.playlist-container{
+	height: 118vh;
+}
+.playlist-box {
+	height: 60px;
+	box-sizing: border-box;
+	background-color: rgba(140, 29, 29,0.6);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+.playlist-box:hover {
+	background-color: #31323d;
+}
+
+.left-content {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 30%;
+	height: 100%;
+	padding: 0% 1%;
+}
+
+.left-content > div:nth-child(2) {
+	height: 100%;
+	min-width: 50px;
+	max-width: 50px;
+	margin: 0px 12% 0px 12%;
+	position: relative;
+}
+.left-content > div:nth-child(2) img {
+	width: 100%;
+	height: 100%;
+}
+.left-content > div:nth-child(3) p {
+	color: rgb(185, 185, 185);
+}
+
+
+.play-btn {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	opacity: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	transition: all ease-in-out 0.1s;
+}
+
+.play-btn:hover {
+	opacity: 0.8;
+}
+
+.left-content div p {
+	font-size: 14px;
+}
