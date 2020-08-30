@@ -70,6 +70,75 @@
             <img src="../Media/Nav_Bar/profile.jpg">
         </div>
 </nav>
+
+<!-- Footer is the ending part of the page -->
+    <!-- It contains a fixed player -->
+    <footer>
+        <div class="active-song-box">
+            <div id="song-image">
+                <img src="../Media/English/pain.jpg">
+            </div>
+            <!-- Song's name and singer -->
+            <div class="active-song-name">
+                <div>
+                    Pain by Ryan
+                </div>
+                <div>
+                    Ryan Jones
+                </div>
+            </div>
+            <div class="heart-ban-icon">
+                <span>
+                    <i class="far fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban"></i>
+                </span>
+            </div>
+        </div>
+        <!-- Controls of the fixed player at the footer -->
+        <div class="active-player">
+            <div class="controls">
+                <div><i class="fas fa-random"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="far fa-pause-circle" style="font-size:30px"></i></div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-sync-alt"></i></div>
+            </div>
+            <!-- Slider for sliding on the duration part -->
+            <div id="slider">
+                <!-- current time -->
+                <div class="time">
+                    1:39
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <!-- Total length of song -->
+                <div class="time">
+                    4:44
+                </div>
+            </div>
+        </div>
+        <!-- These are the icons on the right side of the footer -->
+        <div class="active-right-side">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-tv"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+    </footer>
     
 </body>
 
