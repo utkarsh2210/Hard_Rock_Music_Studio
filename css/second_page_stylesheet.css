@@ -237,3 +237,23 @@ label ~ input {
 }
 
 /*---------------------------------------------------------------------------------------*/
+/******** Right Side Section *********/
+.section-heading {
+	margin-top: 10px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.section-heading div,
+.section-heading h1 {
+	display: inline-block;
+}
+.section-heading h1 {
+	font-size: 20px;
+}
+.section-heading div {
+	position: absolute;
+	bottom: 0%;
+	right: 0px;
+	font-size: 14px;
+}
