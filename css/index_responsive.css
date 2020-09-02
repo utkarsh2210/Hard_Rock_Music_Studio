@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+	
+	/*To hide the favourites option for tis width of the web page*/
+	.fav {
+		width: 50px;
+		font-size: 0.7rem;
+		margin-right: 5px;
+	}
+
+	.search-bar {
+		width: 30%;
+	}
+
+	input {
+		font-size: 11px !important;
+	}
+}
