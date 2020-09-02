@@ -112,3 +112,72 @@
 		display: none;
 	}
 }
+
+
+@media screen and (max-width: 550px) {
+
+	.logo img {
+		height: 30px;
+		width: 30px;
+	}
+
+	.website-name h1 {
+		font-size: 3vw;
+	}
+
+	.website-name h4 {
+		font-size: 2vw;
+	}
+
+	.bell img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.profile-pic img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.bell,
+	.profile-pic {
+		margin-top: 8px;
+	}
+
+	.song-name-main h1 {
+		font-size: 4vw;
+	}
+
+	.followers {
+		font-size: 3vw;
+	}
+
+	.desc {
+		font-size: 3vw;
+		padding-left: 4px;
+	}
+
+	.main-card-buttons {
+		padding-top: 0px;
+	}
+
+	.main-card {
+		height: 54vw;
+		text-align: justify;
+	}
+
+	.main-card-image {
+		height: 54vw;
+		width: 54vw;
+	}
+
+	.btns > button {
+		height: 8vw;
+		width: 17vw;
+		font-size: 3.2vw;
+	}
+
+	#song-image {
+		display: none;
+	}
+}
