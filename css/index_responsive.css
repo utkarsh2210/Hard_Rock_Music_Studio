@@ -115,3 +115,111 @@
 	}
 	
 }
+
+@media screen and (max-width: 768px) {
+
+	.text-div {
+		width: 36vw;
+		height: 24vw;
+		min-width: 123px;
+		min-height: 82px;
+	}
+	
+	.text-div .pic-div span {
+		font-size: 4vw;
+	}
+
+	.active-right-side > div:nth-child(3) {
+		display: none;
+	}
+
+	.active-right-side > div:nth-child(4) {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 550px) {
+	
+	/*Navigation bar Section*/
+	/*Decreased sizes*/
+	.logo img {
+		height: 30px;
+		width: 30px;
+	}
+
+	.website-name h1 {
+		font-size: 3vw;
+	}
+
+	.website-name h4 {
+		font-size: 2vw;
+	}
+
+	.bell img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.profile-pic img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.bell,
+	.profile-pic {
+		margin-top: 8px;
+	}
+
+	/*Stations Section*/
+	#yellow-div {
+		width: 30vw;
+		height: 20vw;
+	}
+
+	#orange-div {
+		width: 28vw;
+		height: 24vw;
+	}
+
+	#yellow-orange-div {
+		width: 26vw;
+		height: 26vw;
+	}
+
+	#yellow-orange-div img {
+		width: 12vw;
+		height: 12vw;
+	}
+
+	#yellow-orange-div p {
+		font-size: 5vw;
+	}
+
+	/*Moods Section*/
+	.moods-box {
+		width: 100%;
+	}
+	
+	.moods-box-content {
+		width: 18vw;
+		height: 18vw;
+	}
+	.moods-box-content p {
+		font-size: 4.5vw;
+		top: -18.8vw;
+	}
+	.moods div img {
+		width: 18vw;
+		height: 18vw;
+	}
+	
+	/*Footer Section*/
+	#song-image {
+		display: none;
+	}
+
+	.text-div .pic-div span {
+		font-size: 6vw;
+	}
+}
