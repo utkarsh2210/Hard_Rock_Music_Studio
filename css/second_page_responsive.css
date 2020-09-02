@@ -1,0 +1,24 @@
+@media screen and (max-width: 1200px) {
+
+	.fav {
+		width: 50px;
+		font-size: 0.7rem;
+		margin-right: 5px;
+	}
+
+	.search-bar {
+		width: 30%;
+	}
+
+	input {
+		font-size: 12px !important;
+	}
+
+	.song-name-main h1 {
+		font-size: 3vw;
+	}
+
+	.desc {
+		font-size: 1.2vw;
+	}
+}
