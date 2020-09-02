@@ -92,3 +92,23 @@
 		font-size: 1.7vw;
 	}
 }
+
+
+@media screen and (max-width: 760px) {
+
+	.followers{
+		font-size: 2vw;
+	}
+
+	.desc {
+		font-size: 1.8vw;
+	}
+
+	.active-right-side > div:nth-child(3) {
+		display: none;
+	}
+
+	.active-right-side > div:nth-child(4) {
+		display: none;
+	}
+}
