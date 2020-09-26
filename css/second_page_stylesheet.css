@@ -27,7 +27,7 @@ main {
 }
 
 .main-card {
-	height: 18vw;
+	height: 18.5vw;
 	width: 100%;
 	margin-top: 12px;
 	position: relative;
@@ -41,7 +41,7 @@ main {
 
 .main-card-image {
 	margin-right: 5px;
-	height: 18vw;
+	height: 18.5vw;
 	width: 20vw;
 	background-image: linear-gradient(
 			transparent,

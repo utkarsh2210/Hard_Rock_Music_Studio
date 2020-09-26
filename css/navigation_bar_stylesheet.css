@@ -3,6 +3,10 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0px;
 }
 
+h1{
+	font-family: 'Sofia';
+}
+
 body {
 	background-image: url(../Media/Background/back5.jpg);
 	background-size: cover;
